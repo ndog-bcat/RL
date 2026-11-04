@@ -1,0 +1,23 @@
+clean video index: 1
+Video: clean_video_1.mp4
+FPS: 30.00
+Duration: 978.07 sec
+Extract interval: 3 sec
+Done. Extracted 327 images.
+Saved to: C:\Users\admin\workspace\RL\img_dataset\image
+
+clean video index: 2
+Video: clean_video_2.mp4
+FPS: 30.00
+Duration: 211.33 sec
+Extract interval: 3 sec
+Done. Extracted 71 images.
+Saved to: C:\Users\admin\workspace\RL\img_dataset\image
+
+clean video index: 3
+Video: clean_video_3.mp4
+FPS: 30.00
+Duration: 213.37 sec
+Extract interval: 3 sec
+Done. Extracted 72 images.
+Saved to: C:\Users\admin\workspace\RL\img_dataset\image
