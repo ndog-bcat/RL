@@ -1,0 +1,33 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration (keep shareable examples)
+.env
+.env.*
+!.env.example
+
+# Local hardware experiments and measurements
+/experiments/
+
+# Video capture and training outputs
+raw_videos/
+clean_videos/
+/data/raw/
+/data/processed/
+/runs/
+/checkpoints/
+/logs/
+/wandb/
+
+# ESP32 generated files and local backups
+/HW/.pio/
+/HW/.vscode/
+/HW/include/wifi_secrets.h
+/HW/original_flash.bin

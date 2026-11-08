@@ -22,7 +22,7 @@ if not os.path.exists(video_path):
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # 일단 3초마다 한 장
-INTERVAL_SEC = 3
+INTERVAL_SEC = 5
 
 cap = cv2.VideoCapture(video_path)
 
