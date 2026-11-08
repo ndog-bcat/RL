@@ -1,9 +1,11 @@
 import math
 import requests
 
+ESP32_IP = "192.168.45.206"
+
 
 class ESP32Client:
-    def __init__(self, ip: str):
+    def __init__(self, ip: str = ESP32_IP):
         self.base_url = f"http://{ip}"
 
     def set_action(self, action: float):
