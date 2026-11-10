@@ -1,0 +1,15 @@
+path: C:/Users/ssung/workspace/RL/datasets/cat_pose
+
+train: images/train
+val: images/val
+
+kpt_shape: [6, 3]
+
+# nose, left_ear, right_ear,
+# left_fr_paw, right_fr_paw, tail_base/body_center
+flip_idx: [0, 2, 1, 4, 3, 5]
+
+names:
+  0: reo
+  1: oz
+  2: toy
